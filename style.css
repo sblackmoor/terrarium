@@ -8,19 +8,16 @@ h1 {
 }
 
 #left-container {
-	background-color: #eee;
-	width: 15%;
 	left: 0px;
-	top: 0px;
-	position: absolute;
-	height: 100%;
-	padding: 10px;
 }
 
 #right-container {
+	right: 0px;
+}
+
+.container {
 	background-color: #eee;
 	width: 15%;
-	right: 0px;
 	top: 0px;
 	position: absolute;
 	height: 100%;
@@ -84,4 +81,22 @@ h1 {
 	opacity: 0.7;
 	z-index: -1;
 }
+.jar-glossy-long {
+	width: 2%;
+	height: 20%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 20%;
+	left: 5%;
+}
 
+.jar-glossy-short {
+	width: 2%;
+	height: 5%;
+	border-radius: 2rem;
+	background: #ddfbff;
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+}
